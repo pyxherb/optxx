@@ -21,7 +21,7 @@ configure_package_config_file(
 install(
     FILES   
        ${CMAKE_CURRENT_BINARY_DIR}/optxxConfig.cmake
-       ${CMAKE_CURRENT_BINARY_DIR}/optxConfigVersion.cmake
+       ${CMAKE_CURRENT_BINARY_DIR}/optxxConfigVersion.cmake
     DESTINATION
         lib/cmake/${PROJECT_NAME}
 )
